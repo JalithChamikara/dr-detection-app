@@ -1,0 +1,22 @@
+{
+  "name": "dr-app-cf",
+  "version": "1.0.0",
+  "description": "Diabetic Retinopathy Stage Screening - Cloudflare Workers App",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "start": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "diabetic-retinopathy",
+    "deep-learning",
+    "onnx-web"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^4.102.0"
+  }
+}

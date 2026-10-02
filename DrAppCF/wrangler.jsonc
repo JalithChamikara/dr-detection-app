@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dr-app-cf",
+  "main": "src/index.js",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "single-page-application"
+  },
+  "vars": {
+    "APP_NAME": "Retina Stage Screening",
+    "MODEL_ARCH": "EfficientNet-B3",
+    "IMAGE_SIZE": 300,
+    "NUM_CLASSES": 5
+  }
+}
